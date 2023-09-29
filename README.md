@@ -10,9 +10,9 @@ Toda modificação é feita por Pull Requests:
 4. Aguarde ou peça por approves
 5. Faça o merge do PR.
 
-git checkout -b <nome-da-branch> // Cria um branch nova a partir da que esta no momento.
-git checkout <nome-da-branch> // Muda para uma branch diferente
-git add . // Prepara mudanças para o commit
-git commit -m "." // Salva as mudanças
-git push // Envia as mudanças para branch remota
-git pull // Atualizar a branch local
+- git checkout -b <nome-da-branch> // Cria um branch nova a partir da que esta no momento.
+- git checkout <nome-da-branch> // Muda para uma branch diferente
+- git add . // Prepara mudanças para o commit
+- git commit -m "." // Salva as mudanças
+- git push // Envia as mudanças para branch remota
+- git pull // Atualizar a branch local
