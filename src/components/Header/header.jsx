@@ -13,7 +13,7 @@ export function Header() {
           <li><a href="/stories">Stories</a></li>
           <li><a href="/gallery">Gallery</a></li>
           <li><a href="/artists">Artists</a></li>
-          <li> <a href="/events">Events</a></li>
+          <li><a href="/events">Events</a></li>
         </ul>       
       </div>
     </div>
