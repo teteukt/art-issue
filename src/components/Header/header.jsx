@@ -8,11 +8,13 @@ export function Header() {
         <img src={Icone} />
       </div>
       <div className="nav">
-        <a href="/">About</a>
-        <a href="/stories">Stories</a>
-        <a href="/gallery">Gallery</a>
-        <a href="/artists">Artists</a>
-        <a href="/events">Events</a>
+        <ul>
+          <li><a href="/">About</a></li>
+          <li><a href="/stories">Stories</a></li>
+          <li><a href="/gallery">Gallery</a></li>
+          <li><a href="/artists">Artists</a></li>
+          <li> <a href="/events">Events</a></li>
+        </ul>       
       </div>
     </div>
   )
