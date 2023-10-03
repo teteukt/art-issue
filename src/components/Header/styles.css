@@ -17,7 +17,7 @@ body {
   background-color: #fff;
   margin: 29px auto;
 }
-.menu a {
+.nav a {
   text-decoration: none;
   color:#000;
   font-size: 16px;
@@ -26,7 +26,7 @@ body {
   margin-right: 38px;
 }
 
-.menu a:hover {
+.nav a:hover {
   cursor: pointer;
   border-bottom: 1.5px solid #000;
 }
