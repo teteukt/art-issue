@@ -1,8 +1,8 @@
-import { Header } from "./components/Header/header";
+import { Menu } from "./components/menu/menu";
 
 function App() {
   return (
-    <Header />
+    <Menu />
   );
 }
 

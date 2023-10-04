@@ -1,7 +1,7 @@
 import "./styles.css";
 import Icone from "../../assets/images/logo.png";
 
-export function header() {
+export function Menu() {
   return (
     <div className="menu">
       <div className="logo">
@@ -20,4 +20,4 @@ export function header() {
   )
 }
 
-export default header
+export default Menu

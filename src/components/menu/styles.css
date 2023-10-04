@@ -17,6 +17,12 @@ body {
   background-color: #ffffff;
   margin: 29px auto;
 }
+
+.nav ul {
+  display: flex;
+  list-style-type: none;
+}
+
 .nav a {
   text-decoration: none;
   color:#000000;
