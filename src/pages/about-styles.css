@@ -2,8 +2,6 @@
 
 body {
   margin: 0;
-
-  max-width: 100%;
   overflow-x: hidden;
 }
 
@@ -20,93 +18,73 @@ h1 {
 
 .imagens-topo {
   display: flex;
-  margin: 0;
-}
-
-.imagens-topo img {
-  object-fit: cover;
 }
 
 .ret2 {
-  width: 400px;
-  height: 654px;
-  margin-top: 73px;
-  margin-right: 85px;
-}
-
-
-.ret2 .p1 {
-  display: inline-block;
-  margin-top: 13px;
-  margin-left: 19px;
-  color: #000000;
-  font-size: 11px;
-  font-weight: 400;
-  line-height: 17px;
-}
-.ret2 .p2 {
-  display: inline-block;
-  margin-top: 13px;
-  margin-left: 35px;
-  color: #000000;
-  font-size: 11px;
-  font-weight: 400;
-  line-height: 17px;
-}
-
-.ret3 .p1 {
   width: 460px;
   height: 654px;
-  display: inline;
-  width: 145px;
-  height: 41px;
-  margin-top: 13px;
+  margin-top: 73px;
+  margin-left: -40px;
+  margin-right: 70px;
+}
+.ret2-p {
+  display: flex;
+  justify-content: space-between;
+  width: 315px;
   color: #000000;
-  font-size: 11px;
+  font-size: 10px;
   font-weight: 400;
   line-height: 17px;
+} 
+.ret2 .p1 {
+  width: 85px;
+  margin-left: 50px;
+}
+
+.ret3 {  
+  max-width: 500px;
+  height: 654px;
+  margin-bottom: 41px;
+}
+.ret3-p {
+  display: flex;
+  justify-content: space-between;
+  color: #000000;
+  font-size: 10px;
+  font-weight: 400;
+  line-height: 17px;
+}  
+.ret3 .p1 {
+  width: 80px;
+  height: 20px;
 }
 .ret3 .p2 {
-  display: inline;
-  width: 62px;
-  height: 41px;
-  margin-top: 13px;
-  margin-left: 130px;
-  color: #000000;
-  font-size: 11px;
-  font-weight: 400;
-  line-height: 17px;
+  width: 80px;
+  height: 20px;
+  margin-right: 60px;
 }
 
 .ret4 {
-  max-width: 100%;
+  width: 600px;
   height: 760px;
   margin-top: 168px;
-  margin-right: 85px;
+  margin-right: 70px;
 }
-.ret4 .p1 {
-  width: 145px;
-  height: 41px;
-  display: inline;
-  margin-top: 13px;
-  margin-left: 0px;
-  margin-right: 85px;
+.ret4-p {
+  display: flex;
+  justify-content: space-between;
   color: #000000;
-  font-size: 11px;
+  font-size: 10px;
   font-weight: 400;
   line-height: 17px;
+}  
+.ret4 .p1 {
+  width: 60px;
+  height: 20px;
 }
 .ret4 .p2 {
-  width: 369px;
-  height: 41px;
-  display: inline;
-  margin-top: 13px;
-  margin-left: 207px;
-  margin-right: 0px;
-  color: #000000;
-  font-size: 11px;
-  font-weight: 400;
-  line-height: 17px;
+  width: 230px;
+  height: 20px;
 }
 
 .art-issue {
@@ -129,36 +107,132 @@ h1 {
 }
 
 .ret5 {  
-  max-width: 1015px;
+  width: auto;
   height: 594px;
   margin-bottom: 41px;
-  
 }
 .ret5 img {
  margin-bottom: 13px;
- display: flex;
-
+ width: 850px;
 }
-
-.ret5 .p1 {
-  display: inline;
-  width: 145px;
-  height: 41px;
-  margin-left: 0px;
+.ret5-p {
+  display: flex;
+  justify-content: space-between;
   color: #000000;
-  font-size: 11px;
+  font-size: 10px;
   font-weight: 400;
   line-height: 17px;
+  margin-bottom: 41px;
+}
+.ret5 .p1 {
+  display: flex;
+  align-items: flex-start;
+  width: 145px;
 }
 .ret5 .p2 {
-  display: inline;
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 165px;
   width: 369px;
-  height: 41px;
-  margin-left: 740px;
+}
+
+.ret6-ret7 {
+  display: flex;
+}
+
+.ret6 {
+  width: 450px;
+  height: 345px;
+  margin-right: 70px;
+}
+
+.ret6 img {
+  width: 440px;
+}
+
+.ret6-p {
+  display: flex;
+  justify-content: space-between;
   color: #000000;
-  font-size: 11px;
+  font-size: 10px;
+  font-weight: 400;
+  line-height: 17px;
+}
+.ret6 .p1 {
+  width: 50px;
+}
+.ret6 .p2 {
+  width: auto;
+}
+
+.ret7 {
+  width: 450px;
+  height: 510px;
+}
+
+.ret7 img {
+  width: 440px;
+}
+.ret7-p {
+  display: flex;
+  justify-content: space-between;
+  color: #000000;
+  font-size: 10px;
   font-weight: 400;
   line-height: 17px;
 }
 
+.ret8 {
+  width: 765px;
+  height: 538px;
+  margin-top: 80px;
+  margin-left: 190px;
+}
+.ret8 img {
+  width: 765px;
+}
 
+.ret8-p {
+  display: flex;
+  justify-content: flex-end;
+  color: #000000;
+  font-size: 10px;
+  font-weight: 400;
+  line-height: 17px;
+  margin-bottom: 41px;
+}
+
+.exhibitions {
+  display: flex;
+  justify-content: space-evenly;
+  width: 1420px;
+  height: 459px;
+  background-color: #000000;
+  color: #ffffff;
+  margin-top: 95px;
+}
+.ex-itens {
+  display: flex;
+}
+
+.ex-titulo h2 {
+  font-size: 36px;
+  font-weight: 400;
+  line-height: 110px;
+  margin-top: 56px;
+  margin-right: 280px;
+}
+.ex-item {
+  width: 500px;
+  margin-top: 46px;
+}
+.ex-item1 {
+  font-size: 18px;
+  margin-top: 42px;
+  margin-bottom: 20px;
+  margin-left: -150px;
+}
+.ex-item2 {
+  font-size: 14px;
+  margin-left: -150px;
+}
