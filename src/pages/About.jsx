@@ -7,11 +7,12 @@ import Ret5 from "../assets/images/Rectangle 5.png";
 import Ret6 from "../assets/images/Rectangle 6.png";
 import Ret7 from "../assets/images/Rectangle 7.png";
 import Ret8 from "../assets/images/Rectangle 8.png";
+import Image from "../assets/images/image.png";
+import Icone from "../assets/images/logo.png";
 
 export function About() {
   return (
     <div>
-      <Menu />
       <div className="container">
         <h1>
           Collectable magazine
@@ -141,6 +142,75 @@ export function About() {
 
             <p className="ex-item1">Auction — The New Independent </p>
             <p className="ex-item2">Kyiv, December 2018</p>  
+          </div>
+        </div>
+      </div>
+
+      <div className="artists container">
+        <div className="artists-item">
+        <h2>Artists</h2>
+          <div className="art1">
+            <p>Alexey Kondakov</p>
+            <p>Ivan Grabko</p>
+            <p>Mishka Bochkaryov</p>
+          </div>
+          <div className="art2">
+            <p>Artem Proot</p>
+            <p>Roman Mikhailov</p>
+            <p>Masha Reva</p>
+            <p>Nikita Sereda</p>
+          </div>
+          <div className="art3">
+            <p>Vlada Ralko</p>
+            <p>Nikita Kravtsov</p>
+            <p>Julie Poly</p>
+            <p>Maria Gavrish</p>
+          </div>
+          <div className="art4">
+            <p>Maria Kulikovska</p>
+            <p>Nadiia X Masha Reva</p>
+            <p>Waone InteresniKazki</p>
+          </div>
+          <div className="art5">
+            <p>Oksana Levchenya</p>
+            <p>Taras Sereda</p>
+          </div>
+        </div>
+      </div>
+
+      <div className="subscribe container">
+        <div className="subscribe-item">
+          <h2>Subscribe</h2>
+          <div>
+            <p>Ready to build your future? Subscribe to our newsletter to get the <br/> latest news and insights right in your inbox.</p>
+          </div>
+          <div className="subscribe-input">
+            <input className="nome" type="text" placeholder="Your Name" />
+            <input className="email" type="text" placeholder="E-mail" />
+            <input className="botao" type="button" value="Subscribe" />
+          </div>
+        </div>
+      </div>
+
+      <div className="issue container">
+        <div className="issue-item">
+          <div className="issue1">
+            <h2>Issue Nº 1</h2>
+            <p>The main topic of the issue is «Time».</p>
+            <p>Time - familiar to everyone, yet hard to defineand understand.</p> 
+            <p>Science, philosophy, religion, and the arts have different definitions of time, however they represent time through change that occur in an apparently irreversible succession.</p>
+          </div>
+          <div className="issue2">
+            <div className="issue2-text">
+              <h3>Mattias Kroon</h3>
+              <p>Where can you go in Paris and enjoy three-Michelin-star cooking with a no-Michelin-star price-tag?</p> 
+              <p>Mattias Kroon knows.</p> 
+              <p>A Swedish-born food critic but based in the French capital, Kroon is perhaps best known for co-authoring the Faviken cookbook. Having said that, he’s just been named the recipient of the prestigious Les Grandes Tables du Monde foreign gastronomy journalist award, so it’s safe to say you’ll be hearing his name a lot more.</p>
+              <img src={Icone} />
+            </div>
+            <div className="issue2-img">
+            <img src={Image} />
+            </div>
           </div>
         </div>
       </div>

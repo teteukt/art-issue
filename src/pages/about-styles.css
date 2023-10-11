@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
 
 body {
   margin: 0;
@@ -12,6 +12,12 @@ body {
 
 h1 {
   font-size: 90px;
+  font-weight: 400;
+  line-height: 110px;
+}
+
+h2 {
+  font-size: 36px;
   font-weight: 400;
   line-height: 110px;
 }
@@ -35,13 +41,12 @@ h1 {
   font-size: 10px;
   font-weight: 400;
   line-height: 17px;
-} 
+}
 .ret2 .p1 {
   width: 85px;
   margin-left: 50px;
 }
-
-.ret3 {  
+.ret3 {
   max-width: 500px;
   height: 654px;
   margin-bottom: 41px;
@@ -53,7 +58,7 @@ h1 {
   font-size: 10px;
   font-weight: 400;
   line-height: 17px;
-}  
+}
 .ret3 .p1 {
   width: 80px;
   height: 20px;
@@ -63,7 +68,6 @@ h1 {
   height: 20px;
   margin-right: 60px;
 }
-
 .ret4 {
   width: 600px;
   height: 760px;
@@ -77,7 +81,7 @@ h1 {
   font-size: 10px;
   font-weight: 400;
   line-height: 17px;
-}  
+}
 .ret4 .p1 {
   width: 60px;
   height: 20px;
@@ -95,25 +99,24 @@ h1 {
   margin-top: 35px;
   margin-bottom: 36px;
 }
-.art-left, .art-right {
+.art-left,
+.art-right {
   width: 445px;
 }
 .art-left {
   margin-left: 95px;
 }
-
 .art-right {
   margin-left: 125px;
 }
-
-.ret5 {  
+.ret5 {
   width: auto;
   height: 594px;
   margin-bottom: 41px;
 }
 .ret5 img {
- margin-bottom: 13px;
- width: 850px;
+  margin-bottom: 13px;
+  width: 850px;
 }
 .ret5-p {
   display: flex;
@@ -135,21 +138,17 @@ h1 {
   margin-right: 165px;
   width: 369px;
 }
-
 .ret6-ret7 {
   display: flex;
 }
-
 .ret6 {
   width: 450px;
   height: 345px;
   margin-right: 70px;
 }
-
 .ret6 img {
   width: 440px;
 }
-
 .ret6-p {
   display: flex;
   justify-content: space-between;
@@ -164,12 +163,10 @@ h1 {
 .ret6 .p2 {
   width: auto;
 }
-
 .ret7 {
   width: 450px;
   height: 510px;
 }
-
 .ret7 img {
   width: 440px;
 }
@@ -181,7 +178,6 @@ h1 {
   font-weight: 400;
   line-height: 17px;
 }
-
 .ret8 {
   width: 765px;
   height: 538px;
@@ -191,7 +187,6 @@ h1 {
 .ret8 img {
   width: 765px;
 }
-
 .ret8-p {
   display: flex;
   justify-content: flex-end;
@@ -216,9 +211,6 @@ h1 {
 }
 
 .ex-titulo h2 {
-  font-size: 36px;
-  font-weight: 400;
-  line-height: 110px;
   margin-top: 56px;
   margin-right: 280px;
 }
@@ -235,4 +227,124 @@ h1 {
 .ex-item2 {
   font-size: 14px;
   margin-left: -150px;
+}
+
+.artists {
+  display: flex;
+  justify-content: flex-end;
+  font-weight: 400;
+  line-height: 110px;
+  margin-right: 77px;
+  margin-bottom: 100px;
+}
+.artists-item {
+  display: flex;
+  flex-direction: column;
+}
+.artists-item h2 {
+  margin-top: 50px;
+  margin-bottom: -50px;
+}
+.artists-item p {
+  font-size: 18px;
+  display: flex;
+  margin-right: 57px;
+  margin-bottom: -50px;
+}
+.art1,
+.art2,
+.art3,
+.art4,
+.art5 {
+  display: flex;
+}
+
+.subscribe {
+  background-color:rgba(0, 0, 0, 0.05);
+  width: 1110px;
+  height: 414px;
+  margin-top: 47px;
+}
+.subscribe-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.subscribe-item h2 {
+  margin-top: 54px;
+  margin-left: -38px;
+}
+.subscribe-item p {
+  margin-top: -40px;
+  margin-left: 220px;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+}
+.subscribe-input input {
+  margin-top: 20px;
+  margin-right: 30px;
+  margin-bottom: 95px;
+  padding: 18px 30px;
+}
+.subscribe-input .botao {
+  cursor: pointer;
+  width: 160px;
+  height: 60px;
+  background-color: #000000;
+  color: #ffffff;
+  text-align: center;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+}
+.subscribe-input .botao:hover {
+  opacity: 0.75;
+}
+
+.issue-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 80px;
+  margin-bottom: 80px;
+}
+.issue1 {
+  width: 380px;
+  margin-right: 150px;
+}
+.issue1 p {
+  font-size: 16px;
+  line-height: 26px;
+  font-weight: 500;
+}
+.issue2 {
+  width: 445px;
+  height: 320px;
+  display: flex;
+  background-color: rgba(0, 0, 0, 0.05);
+  margin-top: 42px;
+  margin-right: 80px;
+  text-align: center;
+}
+.issue2 h3 {
+  font-size: 18px;
+  line-height: 110px;
+  font-weight: 400;
+}
+.issue2 p {
+  font-size: 6px;
+  line-height: 9px;
+  font-weight: 400;
+  margin: 20px;
+}
+.issue2 img {
+  width: 223px;
+  height: 320px;
+}
+.issue2-text img {
+  width: 50px;
+  height: 3.56px;
+  margin-bottom: 10px;
 }
