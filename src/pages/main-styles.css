@@ -135,7 +135,7 @@ h2 {
 .ret5 .p2 {
   display: flex;
   justify-content: flex-end;
-  margin-right: 165px;
+  margin-right: 105px;
   width: 369px;
 }
 .ret6-ret7 {
@@ -212,7 +212,7 @@ h2 {
 
 .ex-titulo h2 {
   margin-top: 56px;
-  margin-right: 280px;
+  margin-right: 295px;
 }
 .ex-item {
   width: 500px;
@@ -222,19 +222,19 @@ h2 {
   font-size: 18px;
   margin-top: 42px;
   margin-bottom: 20px;
-  margin-left: -150px;
+  margin-left: -180px;
 }
 .ex-item2 {
   font-size: 14px;
-  margin-left: -150px;
+  margin-left: -180px;
 }
 
 .artists {
   display: flex;
-  justify-content: flex-end;
+  justify-content: center;
   font-weight: 400;
   line-height: 110px;
-  margin-right: 77px;
+  margin-right: -350px;
   margin-bottom: 100px;
 }
 .artists-item {
@@ -244,11 +244,12 @@ h2 {
 .artists-item h2 {
   margin-top: 50px;
   margin-bottom: -50px;
+  margin-left: 40px;
 }
 .artists-item p {
   font-size: 18px;
-  display: flex;
-  margin-right: 57px;
+  margin-left: 40px;
+  margin-right: 20px;
   margin-bottom: -50px;
 }
 .art1,
@@ -260,33 +261,38 @@ h2 {
 }
 
 .subscribe {
-  background-color:rgba(0, 0, 0, 0.05);
-  width: 1110px;
-  height: 414px;
-  margin-top: 47px;
+  background-color: rgba(0, 0, 0, 0.05);
+  height: 414px; 
+  display: flex;
+  justify-content: center;
 }
 .subscribe-item {
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  margin-right: 100px;
+}
+.subscribe-text h2 {
+  text-align: center;
+  margin-left: 165px;
+}
+.subscribe-text p {
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 500;
+  margin-left: 440px;
+  margin-top: -20px;
+  width: 420px;
+}
+.subscribe-input  {
+  margin-top: 20px;
+  display: flex;
   justify-content: center;
 }
-.subscribe-item h2 {
-  margin-top: 54px;
-  margin-left: -38px;
-}
-.subscribe-item p {
-  margin-top: -40px;
-  margin-left: 220px;
-  font-size: 14px;
-  font-weight: 400;
-  line-height: 24px;
-}
 .subscribe-input input {
-  margin-top: 20px;
-  margin-right: 30px;
-  margin-bottom: 95px;
   padding: 18px 30px;
+  margin-left: 30px;
+}
+.subscribe-input .nome {
+  margin-left: 180px;
 }
 .subscribe-input .botao {
   cursor: pointer;
