@@ -5,11 +5,11 @@ export function Menu() {
   return (
     <div className="menu">
       <div className="logo">
-        <img src={Icone} />
+        <a href="/" ><img src={Icone} /></a>
       </div>
       <div className="nav">
         <ul>
-          <li><a href="/">About</a></li>
+          <li><a href="about">About</a></li>
           <li><a href="/stories">Stories</a></li>
           <li><a href="/gallery">Gallery</a></li>
           <li><a href="/artists">Artists</a></li>
