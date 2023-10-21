@@ -203,7 +203,7 @@ export function About() {
             <h2>Issue Nº 1</h2>
             <p>The main topic of the issue is «Time».</p>
             <p>
-              Time - familiar to everyone, yet hard to defineand understand.
+              Time - familiar to everyone, yet hard to define and understand.
             </p>
             <p>
               Science, philosophy, religion, and the arts have different
