@@ -9,7 +9,7 @@ import Ret8 from "../assets/images/Rectangle 8.png";
 import Image from "../assets/images/image.png";
 import Icone from "../assets/images/logo.png";
 
-export function About() {
+export function Main() {
   return (
     <div>
       <div className="container">
@@ -238,4 +238,4 @@ export function About() {
   );
 }
 
-export default About;
+export default Main;

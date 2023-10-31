@@ -1,6 +1,6 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { Menu } from "./components/menu/menu";
-import About from "./pages/Main";
+import Main from "./pages/Main";
 import Rodape from "./components/rodape/rodape";
 
 function App() {
@@ -9,7 +9,7 @@ function App() {
       <Menu />
       <BrowserRouter>
         <Routes>
-          <Route path="/" element={<About />} />
+          <Route path="/" element={<Main />} />
 
         </Routes>
       </BrowserRouter>
