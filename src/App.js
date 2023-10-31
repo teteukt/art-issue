@@ -1,7 +1,7 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { Menu } from "./components/menu/menu";
-import Main from "./pages/Main";
-import Rodape from "./components/rodape/rodape";
+import { Main } from "./pages/Main";
+import { Rodape } from "./components/rodape/rodape";
 
 function App() {
   return (
