@@ -1,5 +1,4 @@
 import "./main-styles.css";
-import Menu from "../components/menu/menu";
 import Ret2 from "../assets/images/Rectangle 2.png";
 import Ret3 from "../assets/images/Rectangle 3.png";
 import Ret4 from "../assets/images/Rectangle 4.png";
